@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="../resource/css/bootstrap.css">
+  <link rel="stylesheet" href="../css/reset.css">
+  <link rel="stylesheet" href="../css/common.css">
+  <link rel="stylesheet" href="../css/detail.css">
+  <script src="../resource/js/jquery.js"></script>
+</head>
+
+<body>
+  <header>
+    <div class="header_t clear_fix">
+      <ul id="header_ul" class="header_ul">
+        <li>
+          <a href="#">登录</a>
+          <i>|</i>
+          <a href="./user.html">注册</a>
+        </li>
+        <li>
+          <a href="#">我的好乐买</a>
+          <span></span>
+          <div class="list" id="list">
+            <p><a href="#">我的订单</a></p>
+            <p><a href="#">我的收藏</a></p>
+            <p><a href="#">我的优惠券</a></p>
+          </div>
+        </li>
+        <li>
+          <a href="#">手机好乐买</a>
+          <span></span>
+          <div class="list" id="list">
+            <img src="../resource/images/header.png">
+            <p>下载客户端</p>
+          </div>
+        </li>
+        <li>
+          <a href="#">关注好乐买</a>
+          <div class="list" id="list">
+            <img src="../resource/images/header.png">
+            <p>微信公众号</p>
+          </div>
+        </li>
+        <li>
+          <a href="#">客户服务</a>
+          <div class="list" id="list">
+            <p><a href="#">联系客服</a></p>
+            <p><a href="#">帮助中心</a></p>
+            <p><a href="#">意见建议</a></p>
+          </div>
+        </li>
+        <li>
+          <a href="#">公告</a>
+          <div class="list" id="list">
+            <p><a href="#" target="#">好乐买售后部已复工</a></p>
+            <p><a href="#" target="#">在线咨询时效通知 </a></p>
+            <p><a href="#" rel="#" target="#">客服中心即将取消电话咨询服务</a></p>
+            <p><a href="#" target="#">注意防范诈骗电话的提示</a></p>
+            <p><a href="#" target="#">客服中心新增在线客服功能</a></p>
+            <p><a href="#" rel="#" target="#">关于填写订单收件人信息的温馨提示</a></p>
+            <p><a href="#" rel="#" target="#">好乐买运费标准调整公告</a></p>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </header>
+  <div class="header_b">
+    <div class="header_b_box">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="./index.html">
+          <img src="../resource/images/logo.png" alt="">
+        </a>
+        <form class="search" name="topsearchform" id="topsearchform" method="get">
+          <input type="text" autocomplete="off" class="searching" placeholder="Nike童鞋" name="top_key">
+          <input type="button" class="searchbtn" id="searchbtn" title="搜索" value="">
+        </form>
+        <span class="hot">
+          <a href="#">T恤</a>
+          <a href="#">卡骆驰</a>
+          <a href="#">斯凯奇</a>
+          <a href="#">美特斯邦威</a>
+          <a href="#">Adidas童鞋</a>
+          <a href="#">美式休闲服装</a>
+          <a href="#">美妆个护</a>
+        </span>
+        <a href="./shopping.html" class="cart">
+          <span>
+            去购物车结算
+          </span>
+        </a>
+    </div>
+    </nav>
+  </div>
+  <div id="nav_dh" class="nav_dh">
+    <div id="nav-wrap" class="nav-wrap">
+      <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link" href="./index.html">首页</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">运动生活</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">休闲服饰</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">男女名鞋</a>
+        </li>
+      </ul>
+      <div class="bigbox big_block">
+        <div class="bigbox_con">
+          <h2>品类导购</h2>
+          <div class="thebox">
+            <h3>运动鞋</h3>
+            <p class="content">
+              <a href="#">跑步鞋</a>
+              <a href="#">复古鞋</a>
+              <a href="#">休闲鞋</a>
+              <a href="#">帆布鞋</a>
+              <a href="#">板鞋</a>
+              <a href="#">运动生活系列</a>
+              <a href="#">滑板鞋</a>
+              <a href="#">篮球鞋</a>
+              <a href="#">凉鞋/凉拖</a>
+              <a href="#">健步鞋</a>
+              <a href="#">足球鞋</a>
+              <a href="#">羽毛球鞋</a>
+              <a href="#">网球鞋</a>
+              <a href="#">乒乓球鞋</a>
+            </p>
+          </div>
+          <div class="thebox">
+            <h3>运动服</h3>
+            <p class="content">
+              <a href="#">夹克/外套</a>
+              <a href="#">卫衣</a>
+              <a href="#">棉服</a>
+              <a href="#">羽绒服</a>
+              <a href="#">长裤</a>
+              <a href="#">马甲</a>
+              <a href="#">T恤</a>
+              <a href="#">POLO</a>
+              <a href="#">胸衣</a>
+              <a href="#">背心</a>
+              <a href="#">短裤</a>
+              <a href="#">裙装</a>
+              <a href="#">套装</a>
+            </p>
+          </div>
+          <div class="thebox">
+            <h3>儿童专区</h3>
+            <p class="content">
+              <a href="#">运动鞋</a>
+              <a href="#">休闲鞋</a>
+              <a href="#">跑步鞋</a>
+              <a href="#">篮球鞋</a>
+              <a href="#">童靴</a>
+              <a href="#">童装</a>
+            </p>
+          </div>
+          <div class="thebox">
+            <h3>运动周边</h3>
+            <p class="content">
+              <a href="#">袜子</a>
+              <a href="#">帽子</a>
+              <a href="#">护具</a>
+              <a href="#">球类</a>
+              <a href="#">泳具</a>
+              <a href="#">球拍</a>
+              <a href="#">运动休闲包</a>
+            </p>
+          </div>
+        </div>
+        <div class="bigbox_con">
+          <h2>运动导购</h2>
+          <div class="thebox">
+            <h3>好货上新</h3>
+            <p class="content">
+              <a href="#">logoT恤</a>
+              <a href="#">外套</a>
+              <a href="#">收腿运动裤</a>
+              <a href="#">贝壳头</a>
+              <a href="#">小椰子</a>
+              <a href="#">AIR MAX</a>
+              <a href="#">最新鞋款</a>
+            </p>
+          </div>
+          <div class="thebox">
+            <h3>跑步运动</h3>
+            <p class="content">
+              <a href="#">跑步鞋品</a>
+              <a href="#">BOOST</a>
+              <a href="#">ZOOM</a>
+              <a href="#">Free</a>
+              <a href="#">T恤/POLO</a>
+              <a href="#">茄克/外套</a>
+              <a href="#">胸衣</a>
+              <a href="#">保暖马甲</a>
+              <a href="#">跑步裤装</a>
+              <a href="#">长裤</a>
+              <a href="#">短裤</a>
+              <a href="#">紧身/打底裤</a>
+            </p>
+          </div>
+          <div class="thebox">
+            <h3>家居</h3>
+            <p class="content">
+              <a href="#">袜子</a>
+              <a href="#">文胸</a>
+              <a href="#">内裤</a>
+              <a href="#">家居服</a>
+            </p>
+          </div>
+          <div class="thebox">
+            <h3>运动周边</h3>
+            <p class="content">
+              <a href="#">袜子</a>
+              <a href="#">帽子</a>
+              <a href="#">护具</a>
+              <a href="#">球类</a>
+              <a href="#">泳具</a>
+              <a href="#">球拍</a>
+              <a href="#">运动休闲包</a>
+            </p>
+          </div>
+        </div>
+        <div class="bigbox_con">
+          <h2>品牌导购</h2>
+          <img src="../resource/images/brand.png" alt="">
+        </div>
+      </div>
+      <div class="bigbox clear_fix">
+        <div class="bigbox_con">
+          <h2>品类导购</h2>
+          <div class="thebox">
+            <h3>运动鞋</h3>
+            <p class="content">
+              <a href="#">跑步鞋</a>
+              <a href="#">复古鞋</a>
+              <a href="#">休闲鞋</a>
+              <a href="#">帆布鞋</a>
+              <a href="#">板鞋</a>
+              <a href="#">运动生活系列</a>
+              <a href="#">滑板鞋</a>
+              <a href="#">篮球鞋</a>
+              <a href="#">凉鞋/凉拖</a>
+              <a href="#">健步鞋</a>
+              <a href="#">足球鞋</a>
+              <a href="#">羽毛球鞋</a>
+              <a href="#">网球鞋</a>
+              <a href="#">乒乓球鞋</a>
+            </p>
+          </div>
+          <div class="thebox">
+            <h3>运动服</h3>
+            <p class="content">
+              <a href="#">夹克/外套</a>
+              <a href="#">卫衣</a>
+              <a href="#">棉服</a>
+              <a href="#">羽绒服</a>
+              <a href="#">长裤</a>
+              <a href="#">马甲</a>
+              <a href="#">T恤</a>
+              <a href="#">POLO</a>
+              <a href="#">胸衣</a>
+              <a href="#">背心</a>
+              <a href="#">短裤</a>
+              <a href="#">裙装</a>
+              <a href="#">套装</a>
+            </p>
+          </div>
+          <div class="thebox">
+            <h3>儿童专区</h3>
+            <p class="content">
+              <a href="#">运动鞋</a>
+              <a href="#">休闲鞋</a>
+              <a href="#">跑步鞋</a>
+              <a href="#">篮球鞋</a>
+              <a href="#">童靴</a>
+              <a href="#">童装</a>
+            </p>
+          </div>
+          <div class="thebox">
+            <h3>运动周边</h3>
+            <p class="content">
+              <a href="#">袜子</a>
+              <a href="#">帽子</a>
+              <a href="#">护具</a>
+              <a href="#">球类</a>
+              <a href="#">泳具</a>
+              <a href="#">球拍</a>
+              <a href="#">运动休闲包</a>
+            </p>
+          </div>
+        </div>
+        <div class="bigbox_con">
+          <h2>运动导购</h2>
+          <div class="thebox">
+            <h3>好货上新</h3>
+            <p class="content">
+              <a href="#">logoT恤</a>
+              <a href="#">外套</a>
+              <a href="#">收腿运动裤</a>
+              <a href="#">贝壳头</a>
+              <a href="#">小椰子</a>
+              <a href="#">AIR MAX</a>
+              <a href="#">最新鞋款</a>
+            </p>
+          </div>
+          <div class="thebox">
+            <h3>跑步运动</h3>
+            <p class="content">
+              <a href="#">跑步鞋品</a>
+              <a href="#">BOOST</a>
+              <a href="#">ZOOM</a>
+              <a href="#">Free</a>
+              <a href="#">T恤/POLO</a>
+              <a href="#">茄克/外套</a>
+              <a href="#">胸衣</a>
+              <a href="#">保暖马甲</a>
+              <a href="#">跑步裤装</a>
+              <a href="#">长裤</a>
+              <a href="#">短裤</a>
+              <a href="#">紧身/打底裤</a>
+            </p>
+          </div>
+          <div class="thebox">
+            <h3>家居</h3>
+            <p class="content">
+              <a href="#">袜子</a>
+              <a href="#">文胸</a>
+              <a href="#">内裤</a>
+              <a href="#">家居服</a>
+            </p>
+          </div>
+          <div class="thebox">
+            <h3>运动周边</h3>
+            <p class="content">
+              <a href="#">袜子</a>
+              <a href="#">帽子</a>
+              <a href="#">护具</a>
+              <a href="#">球类</a>
+              <a href="#">泳具</a>
+              <a href="#">球拍</a>
+              <a href="#">运动休闲包</a>
+            </p>
+          </div>
+        </div>
+        <div class="bigbox_con">
+          <h2>品牌导购</h2>
+          <img src="../resource/images/brand2.png" alt="">
+        </div>
+      </div>
+      <div class="bigbox clear_fix">
+        <div class="bigbox_con">
+          <h2>品类导购</h2>
+          <div class="thebox">
+            <h3>运动鞋</h3>
+            <p class="content">
+              <a href="#">跑步鞋</a>
+              <a href="#">复古鞋</a>
+              <a href="#">休闲鞋</a>
+              <a href="#">帆布鞋</a>
+              <a href="#">板鞋</a>
+              <a href="#">运动生活系列</a>
+              <a href="#">滑板鞋</a>
+              <a href="#">篮球鞋</a>
+              <a href="#">凉鞋/凉拖</a>
+              <a href="#">健步鞋</a>
+              <a href="#">足球鞋</a>
+              <a href="#">羽毛球鞋</a>
+              <a href="#">网球鞋</a>
+              <a href="#">乒乓球鞋</a>
+            </p>
+          </div>
+          <div class="thebox">
+            <h3>运动服</h3>
+            <p class="content">
+              <a href="#">夹克/外套</a>
+              <a href="#">卫衣</a>
+              <a href="#">棉服</a>
+              <a href="#">羽绒服</a>
+              <a href="#">长裤</a>
+              <a href="#">马甲</a>
+              <a href="#">T恤</a>
+              <a href="#">POLO</a>
+              <a href="#">胸衣</a>
+              <a href="#">背心</a>
+              <a href="#">短裤</a>
+              <a href="#">裙装</a>
+              <a href="#">套装</a>
+            </p>
+          </div>
+          <div class="thebox">
+            <h3>儿童专区</h3>
+            <p class="content">
+              <a href="#">运动鞋</a>
+              <a href="#">休闲鞋</a>
+              <a href="#">跑步鞋</a>
+              <a href="#">篮球鞋</a>
+              <a href="#">童靴</a>
+              <a href="#">童装</a>
+            </p>
+          </div>
+          <div class="thebox">
+            <h3>运动周边</h3>
+            <p class="content">
+              <a href="#">袜子</a>
+              <a href="#">帽子</a>
+              <a href="#">护具</a>
+              <a href="#">球类</a>
+              <a href="#">泳具</a>
+              <a href="#">球拍</a>
+              <a href="#">运动休闲包</a>
+            </p>
+          </div>
+        </div>
+        <div class="bigbox_con">
+          <h2>运动导购</h2>
+          <div class="thebox">
+            <h3>好货上新</h3>
+            <p class="content">
+              <a href="#">logoT恤</a>
+              <a href="#">外套</a>
+              <a href="#">收腿运动裤</a>
+              <a href="#">贝壳头</a>
+              <a href="#">小椰子</a>
+              <a href="#">AIR MAX</a>
+              <a href="#">最新鞋款</a>
+            </p>
+          </div>
+          <div class="thebox">
+            <h3>跑步运动</h3>
+            <p class="content">
+              <a href="#">跑步鞋品</a>
+              <a href="#">BOOST</a>
+              <a href="#">ZOOM</a>
+              <a href="#">Free</a>
+              <a href="#">T恤/POLO</a>
+              <a href="#">茄克/外套</a>
+              <a href="#">胸衣</a>
+              <a href="#">保暖马甲</a>
+              <a href="#">跑步裤装</a>
+              <a href="#">长裤</a>
+              <a href="#">短裤</a>
+              <a href="#">紧身/打底裤</a>
+            </p>
+          </div>
+          <div class="thebox">
+            <h3>家居</h3>
+            <p class="content">
+              <a href="#">袜子</a>
+              <a href="#">文胸</a>
+              <a href="#">内裤</a>
+              <a href="#">家居服</a>
+            </p>
+          </div>
+          <div class="thebox">
+            <h3>运动周边</h3>
+            <p class="content">
+              <a href="#">袜子</a>
+              <a href="#">帽子</a>
+              <a href="#">护具</a>
+              <a href="#">球类</a>
+              <a href="#">泳具</a>
+              <a href="#">球拍</a>
+              <a href="#">运动休闲包</a>
+            </p>
+          </div>
+        </div>
+        <div class="bigbox_con">
+          <h2>品牌导购</h2>
+          <img src="../resource/images/brand3.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="connect">
+    <div class="connect-wrap" id="detail">
+    </div>
+    <div class="connect-wrap" id="detail2">
+    </div>
+  </div>
+  <footer>
+    <div class="footer-wrap">
+      <div class="client_box">
+        <div class="client-l">
+          <div class="client-a" href="#">
+            <img src="../resource/images/footer.png" alt="">
+            <p>好乐买手机客户端</p>
+          </div>
+          <div class="client-a" href="#">
+            <img src="../resource/images/footer.png" alt="">
+            <p>好乐买微信公众号</p>
+          </div>
+        </div>
+        <ul class="client-r">
+          <li>
+            <h2>购物指南</h2>
+            <p>购物流程</p>
+            <p>购物流程</p>
+            <p>购物流程</p>
+            <p>购物流程</p>
+          </li>
+          <li>
+            <h2>配送方式</h2>
+            <p>购物流程</p>
+            <p>购物流程</p>
+          </li>
+          <li>
+            <h2>支付方式</h2>
+            <p>购物流程</p>
+            <p>购物流程</p>
+          </li>
+          <li>
+            <h2>售后服务 </h2>
+            <p>购物流程</p>
+            <p>购物流程</p>
+            <p>购物流程</p>
+          </li>
+        </ul>
+      </div>
+      <div class="pay">
+        <div class="pay-box">
+          <img src="../resource/images/footer2.png" alt="">
+          <img src="../resource/images/footer2.png" alt="">
+          <img src="../resource/images/footer2.png" alt="">
+          <img src="../resource/images/footer2.png" alt="">
+        </div>
+      </div>
+      <div class="firend">
+        <a href="#">公司介绍</a>
+        <a href="#">加入我们</a>
+        <a href="#">联系我们</a>
+        <a href="#">友情链接</a>
+      </div>
+    </div>
+  </footer>
+  <div class="last">
+    <div class="last-wrap">
+      天津好乐买信息技术有限公司 Copyright © 2007-2020 OkBuy.com All Rights Reserved  增值电信业务经营许可证：津B2-20200075  津ICP备16005872号-1
+       京公网安备110105006859
+    </div>
+  </div>
+  <script src="../js/common.js"></script>
+  <script src="../js/detail.js"></script>
+</body>
+
+</html>

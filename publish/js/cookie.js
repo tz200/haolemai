@@ -1,0 +1,1 @@
+"use strict";(function(i){for(var o=document.cookie.split("; "),t=0;t<o.length;t++){var n=o[t].split("=");if(n[0]===i)return n[1]}})("islogin")||(location.href="./login.html#"+location.href);

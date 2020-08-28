@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../resource/css/bootstrap.css">
+    <link rel="stylesheet" href="../css/reset.css">
+</head>
+<style>
+    .header-wrap {
+        width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .header-wrap .nav {
+        align-items: center;
+    }
+
+    .header-wrap .nav li {
+        height: 40px;
+        line-height: 40px;
+        margin-left: 10px;
+    }
+
+    .header-wrap .nav li a {
+        display: block;
+        padding-left: 30px;
+        text-decoration: none;
+        background: url("../resource/images/user.png") -76px -48px no-repeat;
+    }
+
+    .content {
+        height: 560px;
+        background: url(../resource/images/user-c.png)no-repeat -170px;
+    }
+
+    .content .content-wrap {
+        position: relative;
+        width: 1200px;
+        margin: 0 auto;
+        height: 100%;
+
+    }
+
+    .content .content-wrap form {
+        position: absolute;
+        right: 0;
+        width: 400px;
+        height: 440px;
+        background: #fff;
+        padding: 20px;
+        top: 20px;
+    }
+
+    .content .content-wrap form .form-group .title {
+        display: flex;
+        justify-content: space-between;
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+    .content .content-wrap form .tips {
+        position: absolute;
+        font-size: 14px;
+        top: 120px;
+    }
+
+    .content .content-wrap form .passtips {
+        position: absolute;
+        font-size: 14px;
+        top: 200px;
+    }
+
+    .content .content-wrap form .form-group .title a {
+        text-decoration: none;
+        color: #d70057;
+    }
+
+    .content .content-wrap form .form-group input {
+        margin-bottom: 40px;
+    }
+
+    .content .content-wrap form .btn {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .content .content-wrap form .login_box {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding: 16px 30px 16px 10px;
+        background: #f6f6f6;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .content .content-wrap form .login_box .login_list li {
+        background: url(../resource/images/user.png) no-repeat;
+        float: left;
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+    }
+
+    .content .content-wrap form .login_box .login_list li:nth-of-type(1) {
+        background-position: -23px -58px;
+    }
+
+    .content .content-wrap form .login_box .login_list li:nth-of-type(2) {
+        background-position: -5px -42px;
+    }
+
+    .content .content-wrap form .login_box .login_list li:nth-of-type(3) {
+        background-position: -5px -76px;
+    }
+
+    .content .content-wrap form .login_box .login_list li:nth-of-type(4) {
+        background-position: -53px -30px;
+    }
+
+    .content .content-wrap form .login_box .login_list li:nth-of-type(5) {
+        background-position: -23px -30px;
+    }
+
+    .content .content-wrap form .login_box .login_a {
+        text-decoration: none;
+        color: #666;
+    }
+
+    .content .content-wrap form .login_box .login_a i {
+        width: 16px;
+        height: 17px;
+        display: inline-block;
+        background: url(../resource/images/user.png) no-repeat -76px -30px;
+    }
+
+    .footer-wrap {
+        width: 1200px;
+        height: 60px;
+        line-height: 60px;
+        margin: 0 auto;
+    }
+</style>
+
+<body>
+    <header>
+        <div class="header-wrap">
+            <a href="../html/index.html">
+                <img src="../resource/images/user_logo.png" alt="">
+            </a>
+            <ul class="nav">
+                <li>
+                    <a class="" href="#">天天低价</a>
+                </li>
+                <li>
+                    <a class="" href="#">正品保障</a>
+                </li>
+                <li>
+                    <a class="" href="#">7天退换货</a>
+                </li>
+                <li>
+                    <a class="" href="#">评价晒单有礼</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <div class="content">
+        <div class="content-wrap">
+            <form>
+                <div class="form-group">
+                    <p class="title">账号登录</p>
+                    <input name="username" type="text" class="form-control" id="user" placeholder="请输入账号">
+                    <span id="tips" class="tips"></span>
+                </div>
+                <div class="form-group">
+                    <input name="password" type="password" class="form-control" id="pass" placeholder="请输入密码">
+                    <span id="passtips" class="passtips"></span>
+                </div>
+                <button id="btn" type="button" class="btn btn-primary">登录</button>
+                <p>忘记密码？</p>
+                <div class="login_box">
+                    <ul class="login_list">
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                    <a class="login_a" href="./user.html">
+                        <i></i>
+                        注册有惊喜
+                    </a>
+                </div>
+            </form>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-wrap">
+            Copyright © 2007-2020 OkBuy.com All Rights Reserved 天津好乐买信息技术有限公司 津B2-20200075 京公网安备 110105006859
+        </div>
+    </footer>
+    <script src="../resource/js/jquery.js"></script>
+    <script src="../js/login.js"></script>
+</body>
+
+</html>

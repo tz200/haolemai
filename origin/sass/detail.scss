@@ -1,0 +1,36 @@
+.connect{
+    .connect-wrap{
+        width: 1200px;
+        margin: 0 auto;
+        padding-top: 30px;
+        .card-text{
+            span{
+                padding-left: 20px;
+                background: url(../resource/images/love.png)no-repeat left center;
+            }
+        }
+        .connect-box{
+            h2{
+                padding-left: 15px;
+                border: 1px solid #dfdfdf;
+                background-color: #fbfbfb;
+                color: #666;
+                font-size: 12px;
+                height: 30px;
+                line-height: 30px;
+            }
+            .ensure{
+                margin-bottom: 15px;
+                color: #333;
+                font-size: 14px;
+                h3{
+                    margin: 10px 0;
+                }
+                p{
+                    line-height: 26px;
+                }
+            }
+        }
+    }
+    
+}
