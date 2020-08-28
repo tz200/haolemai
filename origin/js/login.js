@@ -46,7 +46,7 @@
             success: function (data) {
                 if (!data.err) {
                     alert(data.msg);
-                    var targeturl = location.hash.slice(1);
+                    var targeturl = location.hash.slice(1) || "./index.html";
                     console.log(targeturl);
                     location.href = targeturl;
                 } else {
